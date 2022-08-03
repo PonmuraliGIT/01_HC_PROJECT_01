@@ -362,8 +362,9 @@ Navigation End
 .square {
   position: absolute;
   z-index: -1;
-  top: 58%;
-  left: 17.5%;
+
+     top: 67%;
+  left: 21.5%;
 }
 .square img {
   width: 55%;
