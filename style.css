@@ -1,0 +1,376 @@
+General
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*
+================================
+Reset Start
+================================
+*/
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+================================
+Reset End
+================================
+*/
+
+/*
+================================
+General Start
+================================
+*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: orbitron;
+  font-size: 62.5%;
+}
+.container {
+  margin: 0 0 0 60px;
+}
+
+/*
+================================
+General End
+================================
+*/
+
+/*
+================================
+Navigation - Start
+================================
+*/
+.navbar-container {
+  margin-top: 16px;
+  padding: 10px 0;
+}
+.logo-col {
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+}
+.nav-col {
+  width: 50%;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+.search-col {
+  width: 22%;
+  display: inline-block;
+}
+.logo {
+  width: 100px;
+  float: left;
+}
+.list-item {
+  display: inline-block;
+  margin-right: 36px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.list-item:first-child {
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-bottom: 2px solid black;
+}
+.list-item:last-child {
+  margin-right: 0;
+}
+
+.search-icon {
+  display: inline;
+  padding-right: 12px;
+}
+.nav-button-container {
+  display: inline;
+}
+.button-group {
+  float: right;
+}
+.search-button {
+  border: 2px solid black;
+  padding: 4px 24px;
+  border-radius: 8px;
+  outline: none;
+  font-family: sans-serif;
+  background-color: white;
+}
+/*
+================================
+Navigation End
+================================
+*/
+
+/*
+  ========================================
+  Clearfix Start
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+/*
+  ========================================
+  Clearfix End
+  ========================================
+*/
+/*
+  ========================================
+  Button Style - Start
+  ========================================
+*/
+.button-styl {
+  border: 2px solid black;
+  padding: 4px 24px;
+  border-radius: 8px;
+  outline: none;
+  font-family: orbitron;
+}
+.button-styl-1 {
+  background-color: white;
+  margin-right: 4px;
+}
+.button-styl-2 {
+  background-color: black;
+  color: white;
+  padding: 4px 2px;
+}
+/*
+  ========================================
+  Button Style - End
+  ========================================
+*/
+
+/*
+  ========================================
+  hero container- Start
+  ========================================
+*/
+
+.hero-container-right {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding: 96px 24px 54px 24px;
+  text-align: center;
+  width: 60%;
+}
+.hero-container-left {
+  display: inline-block;
+  width: 35%;
+}
+
+.person-hero-image {
+  padding: 24px 0;
+  width: 90%;
+}
+.hero-heading {
+  font-size: 3.3em;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.hero-description {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0 56px;
+  line-height: 1.5;
+  font-size: 1rem;
+  width: 100%;
+  margin-bottom: 48px;
+}
+.hero-buttons {
+  margin-bottom: 64px;
+}
+
+.contact-heading {
+  margin-bottom: 12px;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.media-icon {
+  width: 24px;
+  margin-right: 8px;
+}
+.globe {
+  position: absolute;
+  top: 17%;
+  left: 53%;
+}
+.globe img {
+  width: 40px;
+}
+
+.star {
+  position: absolute;
+  top: 25%;
+  right: 13%;
+}
+
+.star img {
+  width: 32px;
+}
+.star-2 {
+  position: absolute;
+  bottom: 17%;
+  left: 13%;
+}
+.star-2 img {
+  width: 28px;
+}
+.square {
+  position: absolute;
+  z-index: -1;
+  top: 58%;
+  left: 17.5%;
+}
+.square img {
+  width: 55%;
+}
+
+/*
+  ========================================
+  hero container - End
+  ========================================
+*/
